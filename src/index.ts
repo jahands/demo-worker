@@ -15,6 +15,6 @@
 
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-		return new Response('Hello world! I got deployed from Cloudchamber :D2');
+		return new Response('Hello world! I got deployed from Cloudchamber :D3');
 	},
 };
