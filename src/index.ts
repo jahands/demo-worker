@@ -11,8 +11,10 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
+// https://demo-worker.jhands.workers.dev/
+
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-		return new Response('Hello world! I got deployed from Cloudchamber :D');
+		return new Response('Hello world! I got deployed from Cloudchamber :D2');
 	},
 };
